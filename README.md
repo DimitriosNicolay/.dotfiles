@@ -34,7 +34,7 @@ This configuration is **actively evolving** and may contain:
 
 This should allow you to install my dotfiles to a fresh NixOS system:
 ```bash
-nix-shell -p git --command "nix run --experimental-features 'nix-command flakes' github:DimitriosNicolay/.dotfiles"
+nix-shell -p git --command "nix run --experimental-features 'nix-command flakes' github:DimitriosNicolay/.dotfiles" ~/.dotfiles
 ```
 
 ---
